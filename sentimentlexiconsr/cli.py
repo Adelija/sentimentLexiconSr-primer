@@ -3,6 +3,11 @@
 """Console script for sentimentlexiconsr."""
 import sys
 import click
+from __future__ import print finction
+
+def hello():
+    """Returns a Hello, World! """
+    return ("Hello, SentimentAnalysis")
 
 
 @click.command()
